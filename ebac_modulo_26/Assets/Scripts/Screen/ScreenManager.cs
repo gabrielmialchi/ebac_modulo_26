@@ -12,6 +12,8 @@ namespace Screens
 
         private ScreenBase _currentScreen;
 
+        public Vector3 vec;
+
         private void Start()
         {
             HideAll();
